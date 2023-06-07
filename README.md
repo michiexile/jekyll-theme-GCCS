@@ -33,9 +33,90 @@ Or install it yourself as:
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
+The theme is built with `_data`-driven menus and footer content, and with the intention that page **content** be easy to edit without extensive knowledge of Jekyll or the theme setup.
+
+### Navigation Top Menu
+
+To populate the top menu, create the file `_data/nav.yml` and make sure it starts with
+```yaml
+items:
+  - [first item]
+  - [second item]
+...
+```
+
+Each item has one key named `text`, and may additionally have either keys `href` (for external links), `link` (for internal links) or `dropdown` (to include a dropdown menu).
+
+The `dropdown` key needs to point to:
+
+* `id` - a string used to identify _this_ dropdown in the mechanics of opening and closing dropdown menus and accessibility support.
+* `items` - a list of items, on the same format as above: each item has a `text` and may have `href` or `link` defined. Note: nested dropdowns are not supported.
+
+Example:
+```yaml
+items:
+  - link: index.md
+    text: Home
+  - text: Computer Science
+    dropdown:
+      id: cs-dropdown
+      items:
+        - link: admissions.md
+          text: Admissions
+        - link: index.md
+          text: Other stuff
+  - text: Data Science
+    dropdown:
+      id: ds-dropdown
+      items:
+        - link: admissions.md
+          text: Admissions
+        - link: index.md
+          text: Other stuff
+```
+
+### Navigation Side Menu
+
+Not yet implemented.
+
+### Footer
+
+The footer has the CUNY and GC logos hard-coded in place, and then allows us to fill the rest of the footer dynamically. This is done by creating the file `_data/footer.yml` and make sure it contains:
+
+* `left` - a key pointing to a list of items to list in a left-hand footer column
+* `middle` - a key pointing to a list of items to list in a middle footer column
+* `right` - a key pointing to a list of items to list in  a right-hand footer column
+
+Each items in each of the lists has a key `text`, and may also have keys `href` (for external links) or `link` (for internal links).
+
+Example:
+```yaml
+left:
+  - text: "Computer Science / Data Science Program"
+  - text: "Room 4219"
+  - text: "CUNY Graduate Center"
+  - text: "365 5th Avenue"
+  - text: "New York NY 10016"
+middle:
+  - title: CUNY Graduate Center
+  - href: https://www.gc.cuny.edu
+    text: Graduate Center
+  - href: https://www.gc.cuny.edu/computer-science
+    text: Computer Science (official)
+  - href: https://www.gc.cuny.edu/data-science
+    text: Data Science (official)
+  - href: https://www.gc.cuny.edu/admissions
+    text: Admissions
+right:
+  - title: Computer Science / Data Science
+  - link: index.md
+    text: Homepage
+```
+
+
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/michiexile/jekyll-theme-GCCS>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
