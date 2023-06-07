@@ -1,0 +1,16 @@
+<div
+  {% if page.title-dark %}
+    class="container p-3 text-white"
+  {% else %}
+    class="container p-3"
+  {% endif %}
+  {% if page.banner %}
+    style="
+    background-image: url('{{page.banner}}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    {% if page.bg-position %}background-position: {{page.bg-position}};{% endif %}
+    "
+  {% endif %} >
+  <h1>{{page.title}}</h1>
+</div>

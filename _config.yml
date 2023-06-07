@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-autoprefixer
+    
+autoprefixer:
+  browsers:
+    - last 4 versions
+
+sass:
+  load_paths:
+    - _sass/

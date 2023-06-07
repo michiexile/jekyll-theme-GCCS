@@ -1,0 +1,20 @@
+left:
+  - text: "Computer Science / Data Science Program"
+  - text: "Room 4219"
+  - text: "CUNY Graduate Center"
+  - text: "365 5th Avenue"
+  - text: "New York NY 10016"
+middle:
+  - title: CUNY Graduate Center
+  - href: https://www.gc.cuny.edu
+    text: Graduate Center
+  - href: https://www.gc.cuny.edu/computer-science
+    text: Computer Science (official)
+  - href: https://www.gc.cuny.edu/data-science
+    text: Data Science (official)
+  - href: https://www.gc.cuny.edu/admissions
+    text: Admissions
+right:
+  - title: Computer Science / Data Science
+  - link: index.md
+    text: Homepage

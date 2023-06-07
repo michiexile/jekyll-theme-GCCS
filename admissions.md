@@ -1,10 +1,9 @@
 ---
-title: Start page of sample site
+title: Page about program admissions
 title-dark: true
 bg-position: center
 banner: https://www.gc.cuny.edu/sites/default/files/styles/1200x800/public/2021-11/commencement-seated-grads-3200x1800.webp
 layout: page
-newsletter: true
 ---
 
 ## CUNY GC Computer Science

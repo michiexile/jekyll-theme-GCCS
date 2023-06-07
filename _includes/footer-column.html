@@ -1,0 +1,31 @@
+{% case include.col %}
+{% when "left" %}
+  {% assign col = site.data.footer.left %}
+{% when "middle" %}
+  {% assign col = site.data.footer.middle %}
+{% when "right" %}
+  {% assign col = site.data.footer.right %}
+{% endcase %}
+<ul class="list-unstyled">
+{% for row in col %}
+  <li>
+  {% if row.title %}
+  <h4 class="text-white mb-5">{{ row.title }}</h4>
+  {% elsif row.link %}
+    {% if row.text %}
+      <a href="{% link {{row.link}} %}">{{row.text}}</a>
+    {% else %}
+      {% link {{row.link}} %}
+    {% endif %}
+  {% elsif row.href %}
+    {% if row.text %}
+      <a href="{{row.href}}">{{row.text}}</a>
+    {% else %}
+      <a href="{{row.href}}">{{row.href}}</a>
+    {% endif %}
+  {% elsif row.text %}
+    {{row.text}}
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>

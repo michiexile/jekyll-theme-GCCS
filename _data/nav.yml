@@ -1,0 +1,19 @@
+items:
+  - link: index.md
+    text: Home
+  - text: Computer Science
+    dropdown:
+      id: cs-dropdown
+      items:
+        - link: admissions.md
+          text: Admissions
+        - link: index.md
+          text: Other stuff
+  - text: Data Science
+    dropdown:
+      id: ds-dropdown
+      items:
+        - link: admissions.md
+          text: Admissions
+        - link: index.md
+          text: Other stuff

@@ -1,0 +1,40 @@
+  <div class="container-fluid">
+    <div class="navbar-brand d-inline-flex align-items-center" href="index.html">
+      <img src="assets/img/gc_300x511.png" height="100px" />
+      <div>Computer Science and <br/> Data Science</div>
+    </div>
+    <ul class="navbar-nav">
+    {% for item in site.data.nav.items %}
+      {% if item.dropdown %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="{{item.dropdown.id}}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{item.text}}
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark bg-primary" aria-labelledby="{{item.dropdown.id}}">
+        {% for dditem in item.dropdown.items %}
+          <li>
+            {% if dditem.link %}
+            <a href="{% link {{dditem.link}} %}" class="dropdown-item">{{dditem.text}}</a>
+            {% elsif dditem.href %}
+            <a href="dditem.href" class="dropdown-item">{{dditem.text}}</a>
+            {% elsif dditem.text %}
+            {{dditem.text}}
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% elsif item.link %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% link {{item.link}} %}">{{item.text}}</a>
+      {% elsif item.href %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{item.href}}">{{item.text}}</a>
+      {% elsif item.text %}
+        <li class="nav-item">
+          {{item.text}}
+      {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

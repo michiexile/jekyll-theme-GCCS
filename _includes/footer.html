@@ -1,0 +1,42 @@
+{% if page.newsletter %}
+<div class="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 ml-auto m-2 bg-primary py-5 newsletter-block">
+        <h3 class="text-white">Subscribe Now</h3>
+        <form action="#">
+          <div class="input-wrapper">
+            <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter your Email..." />
+            <button type="submit" value="send" class="btn btn-primary">Join</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="primary bg-primary section border-bottom p-2">
+  <div class="container">
+    <div class="row">
+      <!-- Logo and address -->
+      <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <a class="logo-footer" href="https://www.cuny.edu">
+          <img class="mb-4" src="assets/img/cuny.png" height="100px" alt="CUNY logo" />
+        </a>
+        <a class="logo-footer" href="https://www.gc.cuny.edu">
+          <img class="mb-4" src="assets/img/gc_300x511.png" height="100px" alt="CUNY GC logo" />
+        </a>
+        {% include footer-column.html col="left" %}
+      </div>
+      <!-- Links to CUNY GC -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        {% include footer-column.html col="middle" %}
+      </div>
+      <!-- Links to CS/DS -->
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        {% include footer-column.html col="right" %}
+      </div>
+    </div>
+  </div>
+</div>
