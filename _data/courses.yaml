@@ -1,0 +1,31 @@
+items:
+  - image: assets/images/courses/course-1.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Photography
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  - image: assets/images/courses/course-2.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Programming
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  - image: assets/images/courses/course-3.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Lifestyle Archives
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  - image: assets/images/courses/course-4.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Complete Freelancing
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  - image: assets/images/courses/course-5.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Branding Design
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+  - image: assets/images/courses/course-6.jpg
+    date: 02-14-2018
+    category: Humanities
+    title: Art Design
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.

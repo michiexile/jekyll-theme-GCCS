@@ -1,0 +1,16 @@
+items:
+  - image: assets/images/events/event-1.jpg
+    date: 18
+    month: December
+    location: Dhanmondi Lake, Dhaka
+    title: Lorem ipsum dolor amet, consectetur adipisicing.
+  - image: assets/images/events/event-2.jpg
+    date: 21
+    month: December
+    location: Dhanmondi Lake, Dhaka
+    title: Lorem ipsum dolor amet, consectetur adipisicing.
+  - image: assets/images/events/event-3.jpg
+    date: 23
+    month: December
+    location: Dhanmondi Lake, Dhaka
+    title: Lorem ipsum dolor amet, consectetur adipisicing.
