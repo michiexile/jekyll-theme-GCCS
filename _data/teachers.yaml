@@ -1,0 +1,22 @@
+items:
+  - image: assets/images/teachers/teacher-1.jpg
+    name: Jacke Masito
+    position: Teacher
+    facebook: https://facebook.com/themefisher
+    twitter: https://twitter.com/themefisher
+    google: https://github.com/themefisher
+    linkedin: https://instagram.com/themefisher/
+  - image: assets/images/teachers/teacher-2.jpg
+    name: Clark Malik
+    position: Teacher
+    facebook: https://facebook.com/themefisher
+    twitter: https://twitter.com/themefisher
+    google: https://github.com/themefisher
+    linkedin: https://instagram.com/themefisher/
+  - image: assets/images/teachers/teacher-3.jpg
+    name: John Doe
+    position: Teacher
+    facebook: https://facebook.com/themefisher
+    twitter: https://twitter.com/themefisher
+    google: https://github.com/themefisher
+    linkedin: https://instagram.com/themefisher/

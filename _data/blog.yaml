@@ -1,0 +1,19 @@
+items:
+  - image: assets/images/blog/post-1.jpg
+    date: August 28, 2018
+    author: Somrat Sorkar
+    title: Lorem ipsum dolor amet, adipisicing eiusmod tempor.
+    description: Lorem ipsum dolor sit amet, consectetur adipisicin
+    link: blog-single.html
+  - image: assets/images/blog/post-2.jpg
+    date: August 13, 2018
+    author: Jonathon Drew
+    title: Lorem ipsum dolor amet, adipisicing eiusmod tempor.
+    description: Lorem ipsum dolor sit amet, consectetur adipisicin
+    link: blog-single.html
+  - image: assets/images/blog/post-3.jpg
+    date: August 24, 2018
+    author: Alex Pitt
+    title: Lorem ipsum dolor amet, adipisicing eiusmod tempor.
+    description: Lorem ipsum dolor sit amet, consectetur adipisicin
+    link: blog-single.html

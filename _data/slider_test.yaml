@@ -1,0 +1,22 @@
+items:
+  - data-animation-out: fadeOutRight
+    data-animation-in: fadeInLeft 
+    title: Your bright future is our mission
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer
+    link: contact.html
+    button_text: Apply now
+  - data-animation-out: fadeOutUp 
+    data-animation-in: fadeInDown 
+    title: Your bright future is our mission
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer
+    link: contact.html
+    button_text: Apply now
+  - data-animation-out: fadeOutDown 
+    data-animation-in: fadeInUp 
+    title: Your bright future is our mission
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer
+    link: contact.html
+    button_text: Apply now
